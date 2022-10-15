@@ -1,0 +1,20 @@
+[
+  {
+    "title": "afasfasfas",
+    "price": 150,
+    "thumbnail": "https://developer.mozilla.org/es/docs/Learn/Forms/HTML5_input_types",
+    "id": 1
+  },
+  {
+    "title": "prueba 2",
+    "price": 12412512,
+    "thumbnail": "https://developer.mozilla.org/es/docs/Learn/Forms/HTML5_input_types",
+    "id": 2
+  },
+  {
+    "title": "1234125safasfas",
+    "price": 124125,
+    "thumbnail": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fe%2Feb%2FHola_mundo.bash.zenity.png&imgrefurl=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FHola_mundo&tbnid=ks6VRBr6TgBScM&vet=12ahUKEwi3_LjlnOH6AhWTM7kGHa2WCcgQMygAegUIARDjAQ..i&docid=TLbr91ipa1eVvM&w=236&h=155&q=hola%20mundo&client=opera&ved=2ahUKEwi3_LjlnOH6AhWTM7kGHa2WCcgQMygAegUIARDjAQ",
+    "id": 3
+  }
+]

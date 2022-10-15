@@ -1,0 +1,12 @@
+<header class="container">
+    <nav>
+        <h1>Lista de productos</h1>
+        <a href="/"><button>Nuevo producto</button></a>
+    </nav>
+</header>
+
+{{#if productos.error}}
+    {{> error}}
+{{else}}
+    {{> tables}}
+{{/if}}
