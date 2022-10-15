@@ -1,9 +1,22 @@
-<header class="container">
-    <nav>
-        <h1>Lista de productos</h1>
-        <a href="/"><button>Nuevo producto</button></a>
-    </nav>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/style.css">
+
+        <title>Nuevo producto</title>
+        <link rel="icon" type="image" href="./img/icono.png">
+    </head>
+
+    <header class="container">
+        <nav>
+            <h1>Lista de productos</h1>
+            <a href="/"><button>Nuevo producto</button></a>
+        </nav>
+    </header>
 
 {{#if productos.error}}
     {{> error}}

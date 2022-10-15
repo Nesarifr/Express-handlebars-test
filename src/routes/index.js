@@ -18,7 +18,7 @@ router.get('/productos', async (req, res)=>{
         const productosAll = await productos.getAll()
         if ( productosAll){
             res.render('productos', {productos : productosAll})
-        }
+        }  else res.render('partials/error', {productos: {error: 'No existe una lista de productos todavia'}})  
     }
     catch(error){
         res.status(500).send('Error en el servidor')
@@ -34,7 +34,7 @@ router.post('/productos', async (req, res)=>{
         if(typeof(verificaRequest)!== "string"){ //Si devuelve String es un error
             await productos.save(nuevoProducto)
             res.redirect('/')
-        } else res.json({error: verificaRequest})        
+        } else res.render('partials/error', {productos: {error: verificaRequest}})        
     }catch(error){
         res.status(500).send('Error en el servidor')
     }    

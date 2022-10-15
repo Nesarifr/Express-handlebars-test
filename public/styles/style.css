@@ -75,31 +75,6 @@ form input {
     border: 2px solid var(--app-grey);
 }
 
-form input.errorInvalid {
-    border: 2px solid var(--error-naranja);
-}
-
-form input.valid {
-    border: 2px solid var(--verde);
-
-}
-
-#help {
-    font-size: 0.75rem;
-    margin-top: 0.2rem;
-    margin-bottom: 0rem;
-    margin-left: 0.5rem;
-}
-
-.helper.errorInvalid {
-    color: var(--error-naranja);
-}
-
-.helper.valid {
-    color: var(--verde);
-}
-
-
 form input:focus {
     outline: none;
     border: 2px solid var(--lila);
@@ -133,21 +108,8 @@ nav a button:hover {
     background-color: var(--azul-hover);
 }
 
-.ingresarA {
-    padding: 1rem 0;
-    text-align: center;
-}
-
-.ingresarA a {
-    color: var(--lila);
-}
-
-.ingresarA a:hover {
-    color: var(--azul);
-}
-
 img {
-    width: 150px;
+    width: 90px;
 }
 
 .rounded {
@@ -202,8 +164,6 @@ tfoot th {
     width: 20%;
 }
 
-
 #imagentable img{
-    
     flex-wrap: nowrap;
 }
